@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{.Values.app.name}}
+  labels:
+    heritage: {{.Values.app.name}}
+spec:
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
+  type: LoadBalancer
+  selector:
+    app: {{.Values.app.name}}

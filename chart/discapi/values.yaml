@@ -1,0 +1,13 @@
+app:
+  name: "discapi"
+
+image:
+  registry: "docker.io"
+  org: "ultimateboy"
+  name: "discapi"
+  tag: "canary"
+  pull_policy: "Always"
+
+resources: 
+  limits_cpu: "50m"
+  limits_memory: "100Mi"

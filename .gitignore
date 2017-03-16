@@ -1,0 +1,4 @@
+rootfs/opt/
+vendor/
+.vscode/
+chart/discapi/charts/

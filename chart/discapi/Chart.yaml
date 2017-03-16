@@ -1,0 +1,7 @@
+name: discapi
+home: https://github.com/ultimateboy/discapi
+version: v0.1.0
+description: Disc API Server
+maintainers:
+  - name: Matt Tucker
+    email: ultimateboy@gmail.com
